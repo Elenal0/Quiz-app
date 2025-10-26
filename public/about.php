@@ -2,8 +2,9 @@
 <?php
 session_start();
 require_once '../includes/functions.php';
+$basePath = '../';
 $pageTitle = 'About - QuizMaster';
-$cssPath = 'assets/styles.css';
+$cssPath = '../assets/styles.css';
 $jsPath = '../assets/script.js';
 ?>
 <?php include '../includes/header.php'; ?>
@@ -17,30 +18,30 @@ $jsPath = '../assets/script.js';
         </p>
         <div class="profile-stats">
             <div class="stat-card">
-                <img src="../assets/images/bilal.png" class="dev-image" alt="Bilal">
+                <img src="../assets/images/bilal.png" class="dev-imageA" alt="Bilal">
                 <h4>Bilal Teli</h4>
-                <p>Full Stack Developer</p>
+                <p>Worked on - Backend, Frontend, Bug fixes</p>
                 <div class="social-links">
-                    <a href="#">LinkedIn</a>
+                    <a href="https://www.linkedin.com/in/bilal-teli-42ab0137a/">LinkedIn</a>
                     <a href="#">GitHub</a>
                 </div>
             </div>
             <div class="stat-card">
-                <img src="../assets/images/dev.png" class="dev-image" alt="Dev">
+                <img src="../assets/images/dev.png" class="dev-imageA" alt="Dev">
                 <h4>Dev Tayade</h4>
-                <p>Full Stack Developer</p>
+                <p>Worked on - Xampp, Backend, Frontend</p>
                 <div class="social-links">
                     <a href="#">LinkedIn</a>
                     <a href="#">Github</a>
                 </div>
             </div>
             <div class="stat-card">
-                <img src="../assets/images/nupur.png" class="dev-image" alt="Nupur">
+                <img src="../assets/images/nupur.png" class="dev-imageA" alt="Nupur">
                 <h4>Nupur Thakur </h4>
-                <p>Full Stack Developer</p>
+                <p>Worked on - UI/UX, Git, Frontend</p>
                 <div class="social-links">
-                    <a href="#">LinkedIn</a>
-                    <a href="#">Github</a>
+                    <a href="https://www.linkedin.com/in/nupurth60/">LinkedIn</a>
+                    <a href="https://github.com/Elenal0">Github</a>
                 </div>
             </div>
         </div>

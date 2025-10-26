@@ -4,6 +4,7 @@ require_once '../config/database.php';
 require_once '../includes/functions.php';
 
 $pageTitle = 'Home - QuizMaster';
+$publicPath = './';
 $basePath = '../';
 $cssPath = '../assets/styles.css';
 $jsPath = '../assets/script.js';

@@ -13,16 +13,16 @@
                         <h4>Bilal Teli</h4>
                         <p>Full Stack Developer</p>
                         <div class="social-links">
-                            <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                            <a href="https://www.linkedin.com/in/bilal-teli-42ab0137a/" aria-label="LinkedIn">LinkedIn</a>
                             <a href="#" aria-label="GitHub">GitHub</a>
                         </div>
                     </div>
                     <div class="developer">
                         <img src="<?php echo isset($basePath) ? $basePath : '../'; ?>assets/images/dev.png" alt="Dev" class="dev-image">
                         <h4>Dev Tayade</h4>
-                        <p>UI/UX Designer</p>
+                        <p>Full Stack Developer</p>
                         <div class="social-links">
-                            <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                            <a href="" aria-label="LinkedIn">LinkedIn</a>
                             <a href="#" aria-label="Github">Github</a>
                         </div>
                     </div>
@@ -31,8 +31,8 @@
                         <h4>Nupur Thakur</h4>
                         <p>Full Stack Developer</p>
                         <div class="social-links">
-                            <a href="#" aria-label="LinkedIn">LinkedIn</a>
-                            <a href="#" aria-label="GitHub">GitHub</a>
+                            <a href="https://www.linkedin.com/in/nupurth60/" aria-label="LinkedIn">LinkedIn</a>
+                            <a href="https://github.com/Elenal0" aria-label="GitHub">GitHub</a>
                         </div>
                     </div>
                 </div>

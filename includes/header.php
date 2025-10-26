@@ -11,21 +11,21 @@
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-logo">
-                <a href="<?php echo isset($basePath) ? $basePath : '../public/'; ?>index.php">QuizMaster</a>
+                <a href="<?php echo isset($publicPath) ? $publicPath : './'; ?>index.php">QuizMaster</a>
             </div>
             <ul class="nav-menu">
                 <li class="nav-item">
-                    <a href="<?php echo isset($basePath) ? $basePath : '../public/'; ?>index.php" class="nav-link">Home</a>
+                    <a href="<?php echo isset($publicPath) ? $publicPath : './'; ?>index.php" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="<?php echo isset($basePath) ? $basePath : '../public/'; ?>about.php" class="nav-link">About</a>
+                    <a href="<?php echo isset($publicPath) ? $publicPath : './'; ?>about.php" class="nav-link">About</a>
                 </li>
                 <?php if (isLoggedIn()): ?>
                     <li class="nav-item">
-                        <a href="<?php echo isset($basePath) ? $basePath : '../public/'; ?>dashboard.php" class="nav-link">Dashboard</a>
+                        <a href="<?php echo isset($publicPath) ? $publicPath : './'; ?>dashboard.php" class="nav-link">Dashboard</a>
                     </li>
                     <li class="nav-item">
-                        <a href="<?php echo isset($basePath) ? $basePath : '../public/'; ?>profile.php" class="nav-link">Profile</a>
+                        <a href="<?php echo isset($publicPath) ? $publicPath : './'; ?>profile.php" class="nav-link">Profile</a>
                     </li>
                     <?php if (isAdmin()): ?>
                         <li class="nav-item">
@@ -33,14 +33,14 @@
                         </li>
                     <?php endif; ?>
                     <li class="nav-item">
-                        <a href="<?php echo isset($basePath) ? $basePath : '../public/'; ?>logout.php" class="nav-link">Logout</a>
+                        <a href="<?php echo isset($publicPath) ? $publicPath : './'; ?>logout.php" class="nav-link">Logout</a>
                     </li>
                 <?php else: ?>
                     <li class="nav-item">
-                        <a href="<?php echo isset($basePath) ? $basePath : '../public/'; ?>login.php" class="nav-link">Login</a>
+                        <a href="<?php echo isset($publicPath) ? $publicPath : './'; ?>login.php" class="nav-link">Login</a>
                     </li>
                     <li class="nav-item">
-                        <a href="<?php echo isset($basePath) ? $basePath : '../public/'; ?>register.php" class="nav-link">Register</a>
+                        <a href="<?php echo isset($publicPath) ? $publicPath : './'; ?>register.php" class="nav-link">Register</a>
                     </li>
                 <?php endif; ?>
             </ul>
