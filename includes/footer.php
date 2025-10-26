@@ -10,7 +10,7 @@
                 <div class="dev-team">
                     <div class="developer">
                         <img src="<?php echo isset($basePath) ? $basePath : '../'; ?>assets/images/bilal.png" alt="Bilal" class="dev-image">
-                        <h4>Bilal Teli</h4>
+                        <h4>bilal</h4>
                         <p>Full Stack Developer</p>
                         <div class="social-links">
                             <a href="#" aria-label="LinkedIn">LinkedIn</a>
