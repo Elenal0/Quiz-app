@@ -3,15 +3,15 @@
 session_start();
 require_once '../includes/functions.php';
 $pageTitle = 'About - QuizMaster';
-$cssPath = '../assets/css/styles.css';
-$jsPath = '../assets/js/script.js';
+$cssPath = '../assets/styles.css';
+$jsPath = '../assets/script.js';
 ?>
 <?php include '../includes/header.php'; ?>
 
 <main>
     <div class="container">
-        <h2 style="text-align:center;margin:2rem 0 1rem;">About QuizMaster</h2>
-        <p style="text-align:center;max-width:700px;margin:0 auto 2rem;">
+        <h2 style="text-align:center; margin:2rem 0 1rem;">About QuizMaster</h2>
+        <p style="text-align:center; max-width:700px; margin:0 auto 2rem;">
             QuizMaster is a modern, open-source quiz platform built with PHP, MySQL, HTML, CSS, and JavaScript. 
             It is designed and developed by passionate tech enthusiasts dedicated to learning and sharing knowledge.
         </p>

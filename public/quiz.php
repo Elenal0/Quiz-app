@@ -16,8 +16,8 @@ if (!$topic_id) {
 $questions = getRandomQuestions($pdo, $topic_id, 10);
 
 $pageTitle = "$topic Quiz - QuizMaster";
-$cssPath = '../assets/css/styles.css';
-$jsPath = '../assets/js/script.js';
+$cssPath = '../assets/styles.css';
+$jsPath = '../assets/script.js';
 ?>
 <?php include '../includes/header.php'; ?>
 <main>

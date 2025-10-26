@@ -38,7 +38,7 @@ $jsPath = '../assets/js/script.js';
             </div>
             <div class="topic-card current" onclick="window.location.href='quiz.php?topic=Current Affairs'">
                 <span class="icon">📰</span>
-                <h3>Current Affairs</h3>
+                <h3>Sports</h3>
                 <p>Questions about recent events, news, and contemporary issues.</p>
                 <div class="btn-secondary">Start Quiz</div>
             </div>

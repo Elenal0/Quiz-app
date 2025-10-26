@@ -43,6 +43,6 @@
         </div>
     </footer>
 
-    <script src="<?php echo isset($jsPath) ? $jsPath : '../assets/js/script.js'; ?>"></script>
+    <script src="<?php echo isset($jsPath) ? $jsPath : '../assets/script.js'; ?>"></script>
 </body>
 </html>

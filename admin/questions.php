@@ -9,7 +9,7 @@ $stmt = $pdo->query("SELECT q.*, t.topic_name FROM questions q JOIN quiz_topics 
 $questions = $stmt->fetchAll();
 
 $pageTitle = 'Manage Questions - Admin';
-$cssPath = '../assets/css/styles.css';
+$cssPath = '../assets/styles.css';
 ?>
 <?php include '../includes/header.php'; ?>
 <main>

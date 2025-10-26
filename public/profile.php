@@ -6,8 +6,8 @@ require_once '../includes/functions.php';
 requireLogin();
 
 $pageTitle = 'Profile - QuizMaster';
-$cssPath = '../assets/css/styles.css';
-$jsPath = '../assets/js/script.js';
+$cssPath = '../assets/styles.css';
+$jsPath = '../assets/script.js';
 
 // Fetch attempts
 $stmt = $pdo->prepare("SELECT qa.*, qt.topic_name FROM quiz_attempts qa JOIN quiz_topics qt ON qa.topic_id = qt.id WHERE qa.user_id = ? ORDER BY attempt_date DESC");

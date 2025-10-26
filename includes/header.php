@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo isset($pageTitle) ? $pageTitle : 'Quiz System'; ?></title>
-    <link rel="stylesheet" href="<?php echo isset($cssPath) ? $cssPath : '../assets/css/styles.css'; ?>">
+    <link rel="stylesheet" href="<?php echo isset($cssPath) ? $cssPath : '../assets/styles.css'; ?>">
 </head>
 <body>
     <nav class="navbar">

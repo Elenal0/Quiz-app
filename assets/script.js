@@ -248,7 +248,7 @@ function initializeQuiz() {
         formData.append('score', correctAnswers);
         formData.append('total', questions.length);
 
-        fetch('results.php', {
+        fetch('../public/results.php', {
             method: 'POST',
             body: formData
         })
@@ -258,12 +258,12 @@ function initializeQuiz() {
                 // Redirect to results page
                 window.location.href = `results.php?attempt_id=${data.attempt_id}`;
             } else {
-                showAlert('Error submitting quiz. Please try again.', 'error');
+                showAlert('Error submitting quiz. Please try again.<3', 'error');
             }
         })
         .catch(error => {
             console.error('Error:', error);
-            showAlert('Error submitting quiz. Please try again.', 'error');
+            showAlert('Error submitting quiz. Please try again.<3', 'error');
         });
     }
 

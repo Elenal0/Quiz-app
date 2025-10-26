@@ -49,8 +49,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 
 $pageTitle = 'Login - QuizMaster';
-$cssPath = '../assets/css/styles.css';
-$jsPath = '../assets/js/script.js';
+$cssPath = '../assets/styles.css';
+$jsPath = '../assets/script.js';
 ?>
 
 <?php include '../includes/header.php'; ?>

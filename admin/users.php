@@ -27,8 +27,8 @@ $totalAttempts = count($attempts);
 $totalUsers = $pdo->query("SELECT COUNT(DISTINCT user_id) as count FROM quiz_attempts")->fetchColumn();
 
 $pageTitle = 'User Attempts - Admin';
-$cssPath = '../assets/css/styles.css';
-$jsPath = '../assets/js/script.js';
+$cssPath = '../assets/styles.css';
+$jsPath = '../assets/script.js';
 ?>
 <?php include '../includes/header.php'; ?>
 
