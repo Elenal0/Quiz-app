@@ -6,7 +6,7 @@
     --success-color: #10b981;
     --error-color: #ef4444;
     --warning-color: #f59e0b;
-    --background-color: #f8fafc;
+    --background-color: rgba(210, 105, 30, 0.454);
     --card-background: #FDF0D5;
     --text-primary: #1e293b;
     --text-secondary: #64748b;
@@ -137,7 +137,7 @@ main {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, rgba(44, 97, 20, 0.9), rgba(49, 118, 15, 0.9)),
+    background: linear-gradient(135deg, #D81E5B, rgba(202, 103, 27, 0.9)),
                 url('../images/bg-home.jpg') center/cover;
     color: white;
     text-align: center;
@@ -159,8 +159,8 @@ main {
 }
 
 .btn-primary {
-    background: var(--primary-color);
-    color: white;
+    background-color:#FDF0D5 ;
+    color: rgb(0, 0, 0);
     padding: 0.75rem 2rem;
     border: none;
     border-radius: var(--border-radius);
@@ -173,7 +173,7 @@ main {
 }
 
 .btn-primary:hover {
-    background: var(--primary-hover);
+    background-color: #e8d938;
     transform: translateY(-2px);
 }
 
@@ -192,14 +192,14 @@ main {
 }
 
 .btn-secondary:hover {
-    background: #475569;
+    background: #9121b7;
     transform: translateY(-2px);
 }
 
 /* Topic Cards */
 .topics-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
     gap: 2rem;
     margin: 3rem 0;
 }
@@ -503,7 +503,7 @@ main {
 
 /* Footer */
 .footer {
-    background-color: rgba(210, 105, 30, 0.454);
+    background-color: #0e4b37;
     color: white;
     padding: 3rem 0 1rem;
     margin-top: auto;
