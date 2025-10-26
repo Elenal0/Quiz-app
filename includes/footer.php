@@ -19,7 +19,7 @@
                     </div>
                     <div class="developer">
                         <img src="<?php echo isset($basePath) ? $basePath : '../'; ?>assets/images/dev.png" alt="Dev" class="dev-image">
-                        <h4>Dev Tayade</h4>
+                        <h4>Dev Tayade 123</h4>
                         <p>Full Stack Developer</p>
                         <div class="social-links">
                             <a href="" aria-label="LinkedIn">LinkedIn</a>
