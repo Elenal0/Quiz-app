@@ -1,36 +1,47 @@
-<!-- filename: admin/dashboard.php -->
+<!-- filename: public/dashboard.php -->
 <?php
 session_start();
 require_once '../config/database.php';
 require_once '../includes/functions.php';
-requireAdmin();
+requireLogin();
 
-$stmt = $pdo->query("SELECT COUNT(*) as user_count FROM users WHERE is_admin=0");
-$userCount = $stmt->fetchColumn();
-$stmt = $pdo->query("SELECT COUNT(*) as q_count FROM questions");
-$qCount = $stmt->fetchColumn();
-
-$pageTitle = 'Admin Dashboard - QuizMaster';
+$pageTitle = 'Dashboard - QuizMaster';
 $cssPath = '../assets/css/styles.css';
+$jsPath = '../assets/js/script.js';
 ?>
 <?php include '../includes/header.php'; ?>
+
 <main>
     <div class="container">
-        <h2 style="margin-top:2rem;">Admin Dashboard</h2>
-        <div class="profile-stats">
-            <div class="stat-card">
-                <div class="stat-number"><?php echo $userCount; ?></div>
-                <div class="stat-label">Users</div>
+        <h2 style="text-align:center;margin:2.5rem 0 1rem;font-size:2.5rem;">Quiz Dashboard</h2>
+        <p style="text-align:center;color:var(--text-secondary);margin-bottom:2rem;">
+            Pick a topic below and test your knowledge!
+        </p>
+        <div class="topics-grid">
+            <div class="topic-card science" onclick="window.location.href='quiz.php?topic=Science'">
+                <span class="icon">🔬</span>
+                <h3>Science</h3>
+                <p>Test your knowledge of Physics, Chemistry, Biology, and General Science concepts.</p>
+                <div class="btn-secondary">Start Quiz</div>
             </div>
-            <div class="stat-card">
-                <div class="stat-number"><?php echo $qCount; ?></div>
-                <div class="stat-label">Questions</div>
+            <div class="topic-card history" onclick="window.location.href='quiz.php?topic=History'">
+                <span class="icon">🏛️</span>
+                <h3>History</h3>
+                <p>Explore questions about World History, Ancient Civilizations, and Historical Events.</p>
+                <div class="btn-secondary">Start Quiz</div>
             </div>
-        </div>
-        <div style="margin:2rem 0;">
-            <a href="questions.php" class="btn-primary" style="margin-right:1rem;">Manage Questions</a>
-            <a href="users.php" class="btn-secondary">View User Attempts</a>
-            <a href="logout.php" class="btn-secondary" style="float:right;">Logout</a>
+            <div class="topic-card general" onclick="window.location.href='quiz.php?topic=General Knowledge'">
+                <span class="icon">🧠</span>
+                <h3>General Knowledge</h3>
+                <p>Mixed questions covering various topics and current awareness.</p>
+                <div class="btn-secondary">Start Quiz</div>
+            </div>
+            <div class="topic-card current" onclick="window.location.href='quiz.php?topic=Current Affairs'">
+                <span class="icon">📰</span>
+                <h3>Current Affairs</h3>
+                <p>Questions about recent events, news, and contemporary issues.</p>
+                <div class="btn-secondary">Start Quiz</div>
+            </div>
         </div>
     </div>
 </main>
