@@ -3,7 +3,7 @@
 session_start();
 require_once '../includes/functions.php';
 $pageTitle = 'About - QuizMaster';
-$cssPath = '../assets/styles.css';
+$cssPath = 'assets/styles.css';
 $jsPath = '../assets/script.js';
 ?>
 <?php include '../includes/header.php'; ?>

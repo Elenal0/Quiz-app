@@ -1,13 +1,13 @@
-/* filename: assets/css/styles.css */
+/* filename: assets/styles.css */
 :root {
-    --primary-color: #2563eb;
-    --primary-hover: #1d4ed8;
-    --secondary-color: #64748b;
+    --primary-color: #3A3335;
+    --primary-hover: #4c5980;
+    --secondary-color: #D81E5B;
     --success-color: #10b981;
     --error-color: #ef4444;
     --warning-color: #f59e0b;
     --background-color: #f8fafc;
-    --card-background: #ffffff;
+    --card-background: #FDF0D5;
     --text-primary: #1e293b;
     --text-secondary: #64748b;
     --border-color: #e2e8f0;
@@ -137,7 +137,7 @@ main {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, rgba(37, 99, 235, 0.9), rgba(59, 130, 246, 0.9)),
+    background: linear-gradient(135deg, rgba(44, 97, 20, 0.9), rgba(49, 118, 15, 0.9)),
                 url('../images/bg-home.jpg') center/cover;
     color: white;
     text-align: center;
@@ -503,7 +503,7 @@ main {
 
 /* Footer */
 .footer {
-    background: var(--text-primary);
+    background-color: rgba(210, 105, 30, 0.454);
     color: white;
     padding: 3rem 0 1rem;
     margin-top: auto;

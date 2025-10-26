@@ -6,8 +6,8 @@ require_once '../includes/functions.php';
 requireLogin();
 
 $pageTitle = 'Dashboard - QuizMaster';
-$cssPath = '../assets/css/styles.css';
-$jsPath = '../assets/js/script.js';
+$cssPath = '../assets/styles.css';
+$jsPath = '../assets/script.js';
 ?>
 <?php include '../includes/header.php'; ?>
 
@@ -38,7 +38,7 @@ $jsPath = '../assets/js/script.js';
             </div>
             <div class="topic-card current" onclick="window.location.href='quiz.php?topic=Current Affairs'">
                 <span class="icon">📰</span>
-                <h3>Sports</h3>
+                <h3>Current Affairs</h3>
                 <p>Questions about recent events, news, and contemporary issues.</p>
                 <div class="btn-secondary">Start Quiz</div>
             </div>
